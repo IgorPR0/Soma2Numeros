@@ -9,16 +9,16 @@ namespace Soma2Numeros
             int valor1;
             int valor2;
 
-            Console.WriteLine("Digite o 1ºValor: ");
+            Console.WriteLine("Digite o Valor 01 : ");
             valor1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o 2ºValor: ");
+            Console.WriteLine("Digite o Valor 02: ");
             valor2 = int.Parse(Console.ReadLine());
             Console.Write("\n");
 
-            Console.WriteLine($"Seu resultado é: {valor1 + valor2}");
+            Console.WriteLine($"Sua conta é: {valor1 + valor2}");
 
-            Console.WriteLine("Pressione ENTER para sair");
+            Console.WriteLine("ENTER para sair");
             Console.ReadKey();
         }
     }
